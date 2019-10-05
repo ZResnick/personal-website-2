@@ -1,0 +1,27 @@
+{
+  "name": "personal-website-2",
+  "version": "1.0.0",
+  "description": "A secdond attempt at my personal website",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^6.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZResnick/personal-website-2.git"
+  },
+  "author": "Zachary Resnick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZResnick/personal-website-2/issues"
+  },
+  "homepage": "https://github.com/ZResnick/personal-website-2#readme"
+}
