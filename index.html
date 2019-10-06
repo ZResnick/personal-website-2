@@ -14,6 +14,12 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("user_4qQ5svJAdOakvTVzWFjtR");
+      })();
+    </script>
   </head>
   <body class="is-preload">
     <!-- Wrapper -->
@@ -126,15 +132,15 @@
             <div class="fields">
               <div class="field half">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
+                <input type="text" name="name" id="sender" />
               </div>
               <div class="field half">
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
+                <input type="text" name="email" id="emailAddress" />
               </div>
               <div class="field">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="4"></textarea>
+                <textarea name="message" id="emailContent" rows="4"></textarea>
               </div>
             </div>
             <ul class="actions">
