@@ -253,6 +253,14 @@
       .appendTo($this)
       .on('click', function() {
         location.hash = '';
+
+        document.getElementById('emailAddress').value = '';
+        document.getElementById('sender').value = '';
+        document.getElementById('emailContent').value = '';
+
+        if (document.getElementById('addedNode')) {
+          document.getElementById('addedNode').remove();
+        }
       });
 
     // Prevent clicks from inside article from bubbling.

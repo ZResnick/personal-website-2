@@ -14,6 +14,12 @@
     />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("user_4qQ5svJAdOakvTVzWFjtR");
+      })();
+    </script>
   </head>
   <body class="is-preload">
     <!-- Wrapper -->
@@ -126,22 +132,22 @@
             <div class="fields">
               <div class="field half">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
+                <input type="text" name="name" id="sender" />
               </div>
               <div class="field half">
                 <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
+                <input type="email" name="email" id="emailAddress" />
               </div>
               <div class="field">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="4"></textarea>
+                <textarea name="message" id="emailContent" rows="4"></textarea>
               </div>
             </div>
-            <ul class="actions">
+            <ul class="actions" id='contactActions'>
               <li>
                 <input type="submit" id='sendMessageButton' value="Send Message" class="default" />
               </li>
-              <li><input type="reset" value="Reset" /></li>
+              <li><input type="reset" value="Reset" id='reset' /></li>
             </ul>
           </form>
           <ul class="icons">
@@ -195,6 +201,14 @@
             </li>
           </ul>
         </article>
+
+        <!-- Thank You -->
+        <article id="thanks">
+            <h2 class="major">THANKS</h2>
+            <p>
+            Thank's for reaching out!  I'll be in touch as soon as possible.
+            </p>
+          </article>
 
         <!-- Elements -->
         <article id="elements">
