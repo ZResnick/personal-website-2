@@ -27,7 +27,7 @@
   $window.on('load', function() {
     window.setTimeout(function() {
       $body.removeClass('is-preload');
-    }, 0.25);
+    }, 0.1);
   });
 
   // Fix: Flexbox min-height bug on IE.

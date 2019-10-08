@@ -759,8 +759,8 @@ input[type='radio'] + label:before {
 
 .image:before {
   pointer-events: none;
-  background-image: url('../../images/overlay.png');
-  background-color: rgba(19, 21, 25, 0.5);
+  /* background-image: url('../../images/overlay.png');
+  background-color: rgba(19, 21, 25, 0.5); */
   border-radius: 4px;
   content: '';
   display: block;
@@ -817,6 +817,24 @@ input[type='radio'] + label:before {
 
 .image.main img {
   width: 100%;
+}
+
+span.image.main {
+  overflow: hidden;
+}
+
+span.image.main img {
+  -moz-transition: -moz-transform 0.2s ease-out;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -ms-transition: -ms-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+}
+
+span.image.main:hover img {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 736px) {
@@ -1274,7 +1292,9 @@ button {
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  background-image: url('../../images/bg.jpg');
+  /* background-image: url('../../images/bg.jpg'); */
+  background-image: url('https://picsum.photos/2800/1200');
+
   /* background-color: rgb(113, 127, 138); */
   background-position: center;
   background-size: cover;
@@ -1369,7 +1389,8 @@ body.is-preload #bg:before {
     -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out,
     opacity 0.325s ease-in-out;
-  background-image: -moz-radial-gradient(
+  /*CENTER HOLE THING*/
+  /* background-image: -moz-radial-gradient(
     rgba(0, 0, 0, 0.25) 25%,
     rgba(0, 0, 0, 0) 55%
   );
@@ -1384,7 +1405,7 @@ body.is-preload #bg:before {
   background-image: radial-gradient(
     rgba(0, 0, 0, 0.25) 25%,
     rgba(0, 0, 0, 0) 55%
-  );
+  ); */
   max-width: 100%;
   text-align: center;
 }
@@ -1672,7 +1693,8 @@ body.is-preload #header .content .inner {
   position: relative;
   width: 40rem;
   max-width: 100%;
-  background-color: rgba(27, 31, 34, 0.85);
+  /* background-color: rgba(27, 31, 34, 0.85); */
+  background-color: rgba(255, 255, 255, 0.226);
   border-radius: 4px;
   opacity: 0;
 }
