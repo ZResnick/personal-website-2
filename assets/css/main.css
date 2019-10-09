@@ -1026,6 +1026,15 @@ ul.icons {
   cursor: default;
   list-style: none;
   padding-left: 0;
+  transform: scale(1.1);
+}
+
+ul.icons.contactIcons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+  transform: scale(1.1);
+  margin-left: 4%;
 }
 
 ul.icons li {
@@ -1342,6 +1351,7 @@ body.is-preload #bg:before {
   width: 100%;
   padding: 4rem 2rem;
   z-index: 3;
+  /* transform: scale(1.25); */
 }
 
 #wrapper:before {
@@ -1409,6 +1419,7 @@ body.is-preload #bg:before {
   ); */
   max-width: 100%;
   text-align: center;
+  transform: scale(1.15);
 }
 
 #header > * {
