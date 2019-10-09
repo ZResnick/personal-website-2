@@ -1292,8 +1292,8 @@ button {
   -ms-transition: -ms-transform 0.325s ease-in-out,
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-  /* background-image: url('../../images/bg.jpg'); */
-  background-image: url('https://picsum.photos/2800/1200');
+  background-image: url('../../images/bg.jpg');
+  /* background-image: url('https://picsum.photos/2800/1200'); */
 
   /* background-color: rgb(113, 127, 138); */
   background-position: center;
@@ -1812,4 +1812,20 @@ body.is-preload #footer {
 .resumeHeader {
   display: flex;
   justify-content: space-between;
+}
+
+.aboutIntro {
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.technologiesIUse {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.lists {
+  flex-grow: 0.3;
 }
