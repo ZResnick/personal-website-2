@@ -21,7 +21,7 @@
       })();
     </script>
   </head>
-  <body class="is-preload">
+  <body id='mainBody' class="is-preload">
     <!-- Wrapper -->
     <div id="wrapper">
       <!-- Header -->
@@ -51,7 +51,7 @@
         <!-- Intro -->
         <article id="intro">
           <h2 class="major">Intro</h2>
-          <span class="image main"><img src="images/pic01.jpg" alt=""/></span>
+          <span class="image main"><img src="images/divlab.png" alt=""/></span>
           <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
             aliquam facilisis ante interdum congue. Integer mollis, nisl amet
@@ -654,6 +654,37 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     <div id="bg"></div>
 
     <!-- Scripts -->
+    <!-- <script type="text/javascript">   //my attempt at getting random background images
+      (function(){
+          let backgrounds = [
+            "images/backgroundImages/bg.jpg",
+            // "images/backgroundImages/bg1.jpg",
+            "images/backgroundImages/bg2.jpg",
+            // "images/backgroundImages/bg4.jpg",
+            // "images/backgroundImages/bg5.jpg",
+            "images/backgroundImages/bg6.jpg",
+            // "images/backgroundImages/bg7.jpg",
+            "images/backgroundImages/bg8.jpg",
+            // "images/backgroundImages/bg9.jpg",
+            // "images/backgroundImages/bg10.jpg",
+            "images/backgroundImages/bg11.jpg",
+            "images/backgroundImages/bg12.jpg",
+            "images/backgroundImages/bg13.jpg",
+            "images/backgroundImages/bg14.jpg",
+            "images/backgroundImages/bg15.jpg",
+            // "images/backgroundImages/bg16.jpg",
+            "images/backgroundImages/bg17.jpg",
+            "images/backgroundImages/bg18.jpg",
+            ]
+          let body = document.getElementById('bg')
+          let index = Math.floor(Math.random() * backgrounds.length)
+          body.style.backgroundImage = `url(${backgrounds[index]})`
+          // body.style.backgroundPosition = 'center'
+          // body.style.backgroundSize = 'cover'
+          // body.style.backgroundRepeat = 'no-repeat'
+          // body.style.zIndex = 1
+      })();
+    </script> -->
     <script src='assets/js/emailNotification.js'></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
