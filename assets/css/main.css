@@ -1302,7 +1302,7 @@ button {
     -ms-filter 0.325s ease-in-out;
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
   /* background-image: url('../../images/bg.jpg'); */
-  background-image: url('../../images/backgroundImages/bg15.jpg');
+  background-image: url('../../images/backgroundImages/bg6.jpg');
   /* background-image: url('https://picsum.photos/2800/1200'); */
 
   /* background-color: rgb(113, 127, 138); */
@@ -1456,6 +1456,10 @@ body.is-preload #bg:before {
   line-height: 5.5rem;
   border: solid 1px #ffffff;
   border-radius: 100%;
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 #header .logo .icon:before {
@@ -1656,6 +1660,16 @@ body.is-preload #header .content .inner {
 
   #header nav.use-middle:after {
     display: none;
+  }
+
+  .resumeHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .resumeDownload {
+    max-width: fit-content;
+    align-self: flex-end;
   }
 }
 
