@@ -2,6 +2,7 @@ const button = document.getElementById('sendMessageButton');
 
 button.addEventListener('click', evt => {
   evt.preventDefault();
+  console.log('HELLO');
 
   let email = document.getElementById('emailAddress').value;
   let sender = document.getElementById('sender').value;
