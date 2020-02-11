@@ -863,7 +863,7 @@ ol li {
 
 ul {
   list-style: disc;
-  margin: 0 0 2rem 0;
+  margin: 0 0 1rem 0;
   padding-left: 1em;
 }
 
@@ -1854,4 +1854,15 @@ body.is-preload #footer {
 
 .lists {
   flex-grow: 0.3;
+}
+
+.header-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-icon {
+  margin-right: 5%;
 }
