@@ -1,4 +1,4 @@
-Dimension by HTML5 UP
+<!-- Dimension by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
@@ -27,4 +27,15 @@ Credits:
 
 	Other:
 		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+		Responsive Tools (github.com/ajlkn/responsive-tools) -->
+
+## Hello...
+
+...and thanks for visiting for my personal site's repo! If you're seeing this, you may be in a position to hire engineers. If so, please feel free to reach out to me through the contact form on my site, or directly at Zachary.L.Resnick@Gmail.com.
+
+Please find here links to all my socials:
+[My Portfolio](zacharyresnick.com)
+[My Github](https://github.com/ZResnick)
+[My LinkedIn](https://www.linkedin.com/in/zachresnick1/)
+[My Instagram](https://www.instagram.com/zachzachresnickresnick/?hl=en)
+[My Latest Project - Appetized](https://appetized.herokuapp.com)
