@@ -33,9 +33,9 @@ Credits:
 
 ...and thanks for visiting for my personal site's repo! If you're seeing this, you may be in a position to hire engineers. If so, please feel free to reach out to me through the contact form on my site, or directly at Zachary.L.Resnick@Gmail.com.
 
-Please find here links to all my socials:
-[My Portfolio](zacharyresnick.com)
-[My Github](https://github.com/ZResnick)
-[My LinkedIn](https://www.linkedin.com/in/zachresnick1/)
-[My Instagram](https://www.instagram.com/zachzachresnickresnick/?hl=en)
-[My Latest Project - Appetized](https://appetized.herokuapp.com)
+Please find here links to all my socials: <br/>
+[My Portfolio](zacharyresnick.com)<br/>
+[My Github](https://github.com/ZResnick)<br/>
+[My LinkedIn](https://www.linkedin.com/in/zachresnick1/)<br/>
+[My Instagram](https://www.instagram.com/zachzachresnickresnick/?hl=en)<br/>
+[My Latest Project - Appetized](https://appetized.herokuapp.com)<br/>
